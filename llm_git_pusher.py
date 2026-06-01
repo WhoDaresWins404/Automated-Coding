@@ -7,7 +7,7 @@ from memory_manager import load_memory_context, update_memory_file, start_auto_s
 
 # --- Configuration ---
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "gemma2:e2b"
+MODEL_NAME = "gemma4:e2b"
 REPO_FULL_NAME = "WhoDaresWins404/Automated-Coding"
 LOCAL_PATH = "./Automated-Coding"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
